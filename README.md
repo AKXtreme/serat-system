@@ -1152,12 +1152,12 @@ For enterprise support and consulting:
 
 **🌟 Star us on GitHub** • **🍴 Fork and contribute** • **📢 Share with your network**
 
-[⭐ Star on GitHub](https://github.com/AkXtreme/serat-system) • [🐦 Follow on Twitter](https://twitter.com/SeratSystem) • [📧 Contact Us](mailto:support@serat-system.com)
+[⭐ Star on GitHub](https://github.com/AkXtreme/serat-system) • [🐦 Follow on Twitter](https://twitter.com/akalewoldx) • [📧 Contact Us](mailto:support@serat-system.com)
 
 ---
 
-**Made with ❤️ by AkXtreme and team**
+**Made with ❤️ by AkXtreme and adrian**
 
-*SERAT Enterprise Management System - Empowering Ethiopian Businesses*
+*SERAT Enterprise Management System *
 
 </div>
