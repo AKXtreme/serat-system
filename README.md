@@ -1,6 +1,9 @@
 # � SERAT Enterprise Management System
 ## 🎉 **Version 1.0 - First Official Release** 🎉
 
+<img width="1680" height="1050" alt="Screenshot 2025-07-24 at 09 21 42" src="https://github.com/user-attachments/assets/4520e865-205d-43bd-ba42-6f06e9e308d0" />
+
+
 <div align="center">
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-gold.svg?style=for-the-badge)
