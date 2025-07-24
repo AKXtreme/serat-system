@@ -12,14 +12,12 @@
 ![Redis](https://img.shields.io/badge/Redis-7.0-red.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-### 🇪🇹 **Built with Pride for Ethiopia** 🇪🇹
-### 🦌 **Powered by the Spirit of Waliya Ibex** 🦌
 
 *🚀 A modern, full-stack enterprise resource planning system combining the power of Spring Boot backend with React frontend for comprehensive business management*
 
 [📖 Documentation](#-table-of-contents) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-key-features) • [🏗️ Architecture](#️-architecture) • [💻 Development](#-development-setup)
 
-### 🌈 **Experience the Future of Ethiopian Enterprise Management** 🌈
+ **Experience the Future of  Enterprise Management** 
 
 </div>
 
