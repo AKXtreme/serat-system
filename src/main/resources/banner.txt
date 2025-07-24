@@ -1,0 +1,30 @@
+                                  ,,                ,,    
+                                `7MM                db    
+                                  MM                      
+    ,pP"Ybd  .gP"Ya `7Mb,od8 ,6"Yb.MM        ,M""bMM  `7MM  ,pP"Ybd  
+    8I   `" ,M'   Yb  MM' "',M'   Yb MM      ,P   YMMM    MM  8I   `" 
+    `YMMMa. 8M""""""  MM    8M"""""  MM      8M    MMM    MM  `YMMMa. 
+    L.   I8 YM.    ,  MM    YM.   , ,MM.   , YA.   FMM    MM  L.   I8 
+    M9mmmP'  `Mbmmd'.JMML.   `YbmmP' P^YbmdP'`"bmpFMM  .JMML.M9mmmP' 
+                                           MMM                        
+                                           MMM                        
+                                           MMM                        
+                                                                      
+                                     /|   /|      
+                                    ( :v:  )      
+                             _       )\_/)(_       
+                            /_ \    /^     ^\     
+                           (  _/  /   o   o   \   
+                           ( (   (     >       ) 
+                            \_\   \  \_===_/ /   
+                             \_\_  \   ___   /    
+                              ) )   | |   | |     
+                             / /    | |   | |     
+                            /_/      \_) (_/      
+                                                  
+        ═══════════════════════════════════════════════════════════════
+        🌟 SERAT ENTERPRISE MANAGEMENT SYSTEM 🌟
+        📍 Built with Pride for Ethiopia 🇪🇹
+        🚀 Spring Boot ${spring-boot.version} • Powered by Java ${java.version}
+        🏢 Version: ${serat.version:1.0.0} • Copyright © ${serat.copyrightYear:2025}
+        ═══════════════════════════════════════════════════════════════

@@ -1,0 +1,26 @@
+{
+  "name": "serat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SERAT Enterprise Management System - Full Stack Application",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "frontend": "cd frontend && npm start",
+    "backend": "./gradlew bootRun",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "./gradlew build",
+    "install:all": "npm install && cd frontend && npm install",
+    "clean": "./gradlew clean && cd frontend && rm -rf node_modules build",
+    "dev": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"blue,green\" \"npm run backend\" \"npm run frontend\"",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "./gradlew test",
+    "test:frontend": "cd frontend && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}

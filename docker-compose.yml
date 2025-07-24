@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: postgres:17.5
+    container_name: serat-postgres
+    environment:
+      POSTGRES_DB: serat
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: serat1234
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - serat-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: serat-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - serat-network
+
+volumes:
+  postgres_data:
+
+networks:
+  serat-network:
+    driver: bridge
