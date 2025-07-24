@@ -1,6 +1,9 @@
 # � SERAT Enterprise Management System
 ## 🎉 **Version 1.0 - First Official Release** 🎉
 
+<img width="1680" height="1050" alt="Screenshot 2025-07-24 at 09 21 42" src="https://github.com/user-attachments/assets/4520e865-205d-43bd-ba42-6f06e9e308d0" />
+
+
 <div align="center">
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-gold.svg?style=for-the-badge)
@@ -12,14 +15,12 @@
 ![Redis](https://img.shields.io/badge/Redis-7.0-red.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-### 🇪🇹 **Built with Pride for Ethiopia** 🇪🇹
-### 🦌 **Powered by the Spirit of Waliya Ibex** 🦌
 
 *🚀 A modern, full-stack enterprise resource planning system combining the power of Spring Boot backend with React frontend for comprehensive business management*
 
 [📖 Documentation](#-table-of-contents) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-key-features) • [🏗️ Architecture](#️-architecture) • [💻 Development](#-development-setup)
 
-### 🌈 **Experience the Future of Ethiopian Enterprise Management** 🌈
+ **Experience the Future of  Enterprise Management** 
 
 </div>
 
@@ -529,7 +530,6 @@ Once started, you should see the SERAT banner:
 
         ═══════════════════════════════════════════════════════════════
         🌟 SERAT ENTERPRISE MANAGEMENT SYSTEM 🌟
-        📍 Built with Pride for Ethiopia 🇪🇹
         🚀 Spring Boot 3.4.6 • Powered by Java 17.0.9
         🏢 Version: 1.0.0 • Copyright © 2025
         ═══════════════════════════════════════════════════════════════
@@ -1116,7 +1116,7 @@ SOFTWARE.
 - 🐙 **GitHub Issues**: [Report bugs & request features](https://github.com/AkXtreme/serat-system/issues)
 - 💭 **GitHub Discussions**: [Community discussions](https://github.com/AkXtreme/serat-system/discussions)
 - 📧 **Email Support**: support@serat-system.com
-- 🐦 **Twitter**: [@SeratSystem](https://twitter.com/SeratSystem)
+- 🐦 **Twitter**: [@SeratSystem](https://twitter.com/akalewoldx)
 
 #### 🚀 **Professional Support**
 For enterprise support and consulting:
@@ -1143,23 +1143,20 @@ For enterprise support and consulting:
 
 **🎊 Thank you for choosing SERAT!** 🎊
 
-*Built with ❤️ for Ethiopian businesses and enterprises worldwide*
-
 ---
 
-### 🦌 **"Like the Waliya Ibex navigating Ethiopian mountains,** 
 ### **SERAT helps your business navigate the complexities of modern enterprise management"** 🏔️
 
 ---
 
 **🌟 Star us on GitHub** • **🍴 Fork and contribute** • **📢 Share with your network**
 
-[⭐ Star on GitHub](https://github.com/AkXtreme/serat-system) • [🐦 Follow on Twitter](https://twitter.com/SeratSystem) • [📧 Contact Us](mailto:support@serat-system.com)
+[⭐ Star on GitHub](https://github.com/AkXtreme/serat-system) • [🐦 Follow on Twitter](https://twitter.com/akalewoldx) • [📧 Contact Us](mailto:support@serat-system.com)
 
 ---
 
-**Made with ❤️ by AkXtreme and team**
+**Made with ❤️ by AkXtreme and adrian**
 
-*SERAT Enterprise Management System - Empowering Ethiopian Businesses*
+*SERAT Enterprise Management System *
 
 </div>
