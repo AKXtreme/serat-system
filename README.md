@@ -678,7 +678,7 @@ SERAT includes comprehensive API documentation with Swagger UI:
 ```json
 {
   "code": 200,
-  "msg": "操作成功",
+  "msg": "ተሳክቷል",
   "data": { ... },
   "timestamp": "2025-01-15T10:30:00Z"
 }
