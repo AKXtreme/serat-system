@@ -4,6 +4,7 @@ services:
   postgresql:
     image: postgres:17.5
     container_name: serat-postgres
+    platform: linux/amd64  # Ensures compatibility across different architectures
     environment:
       POSTGRES_DB: serat
       POSTGRES_USER: root
@@ -15,17 +16,31 @@ services:
       - ./sql:/docker-entrypoint-initdb.d
     networks:
       - serat-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U root -d serat"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
 
   redis:
     image: redis:7-alpine
     container_name: serat-redis
+    platform: linux/amd64  # Ensures compatibility across different architectures
     ports:
       - "6379:6379"
     networks:
       - serat-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
 
 volumes:
   postgres_data:
+    driver: local
 
 networks:
   serat-network:

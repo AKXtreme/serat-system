@@ -246,31 +246,27 @@ com.serat/
 
 ---
 
-## 🛠️ Complete Technology Stack
+### 🛠️ **Cross-Platform Command Reference**
 
-### 🎨 **Frontend Technologies**
-| Component | Technology | Version | Purpose |
-|-----------|------------|---------|---------|
-| **🚀 Framework** | React | 18.2.0 | Modern UI framework |
-| **🎨 UI Library** | Ant Design | 5.3.0 | Professional components |
-| **🔄 State Management** | React Context | Built-in | Application state |
-| **🌐 HTTP Client** | Axios | Latest | API communication |
-| **🎯 Routing** | React Router | Latest | Client-side navigation |
-| **📦 Build Tool** | Create React App | Latest | Development & build |
-| **💅 Styling** | CSS3 + Ant Design | Latest | Modern styling |
+| Task | Windows | macOS/Linux | Universal |
+|------|---------|-------------|-----------|
+| **� System Check** | `node check-system.js` | `node check-system.js` | `node check-system.js` |
+| **⚡ Quick Setup** | `start-dev.bat` | `./start-dev.sh` | `node setup.js` |
+| **� Start App** | `npm run dev` | `npm run dev` | `npm run dev` |
+| **�️ Build Backend** | `gradlew.bat build` | `./gradlew build` | `npm run build:backend` |
+| **🧹 Clean Project** | `npm run clean:windows` | `npm run clean:unix` | `npm run clean` |
+| **🧪 Run Tests** | `gradlew.bat test` | `./gradlew test` | `npm run test` |
+| **� Docker Up** | `docker-compose up -d` | `docker-compose up -d` | `docker-compose up -d` |
+| **🐳 Docker Down** | `docker-compose down` | `docker-compose down` | `docker-compose down` |
 
-### 🚀 **Backend Technologies**
-| Component | Technology | Version | Purpose |
-|-----------|------------|---------|---------|
-| **🏗️ Framework** | Spring Boot | 3.4.6 | Enterprise backend |
-| **☕ Language** | Java | 17+ | Programming language |
-| **🔧 Build Tool** | Gradle | 8.x | Build automation |
-| **🔒 Security** | Spring Security + JWT | Latest | Authentication & authorization |
-| **💾 Primary Database** | PostgreSQL | 17.5 | Relational data storage |
-| **⚡ Cache** | Redis | 7.0 | High-performance caching |
-| **🗃️ ORM** | MyBatis + JPA | Latest | Database access layer |
-| **🔗 Connection Pool** | Druid | Latest | Database connection management |
-| **🔄 Migration** | Flyway | Latest | Database version control |
+---
+
+### 🎊 **First Login**
+
+Use these default credentials for your first login:
+- **Username**: `admin`
+- **Password**: `admin123`
+- **� Note**: Change these credentials immediately in production!
 
 ### 🐳 **DevOps & Infrastructure**
 | Component | Technology | Version | Purpose |
@@ -311,58 +307,111 @@ com.serat/
 
 ## 📦 Prerequisites
 
-Before running SERAT, ensure you have the following installed:
+### 🌍 **Supported Operating Systems**
+- ✅ **Windows 10/11** (x64, ARM64)
+- ✅ **macOS** (Intel, Apple Silicon M1/M2)
+- ✅ **Linux** (Ubuntu, CentOS, Debian, Fedora, etc.)
 
-- **Java 17+** (OpenJDK or Oracle JDK)
-- **Docker & Docker Compose** (for database setup)
-- **Git** (for cloning the repository)
+### 🛠️ **Required Software**
+| Component | Version | Windows | macOS | Linux |
+|-----------|---------|---------|-------|-------|
+| **☕ Java** | 17+ | [Download](https://openjdk.org/) | `brew install openjdk@17` | `apt install openjdk-17-jdk` |
+| **📦 Node.js** | 16+ | [Download](https://nodejs.org/) | `brew install node` | `apt install nodejs npm` |
+| **🐳 Docker** | Latest | [Docker Desktop](https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe) | [Docker Desktop](https://desktop.docker.com/mac/stable/Docker.dmg) | [Install Guide](https://docs.docker.com/engine/install/) |
+| **🔗 Git** | Latest | [Download](https://git-scm.com/) | `brew install git` | `apt install git` |
 
-### 📋 System Requirements
+### 📋 **System Requirements**
 
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| **RAM** | 4GB | 8GB+ |
-| **CPU** | 2 cores | 4+ cores |
-| **Storage** | 10GB | 20GB+ |
-| **JVM Heap** | 1GB | 2GB+ |
+| Component | Minimum | Recommended | Notes |
+|-----------|---------|-------------|-------|
+| **💾 RAM** | 4GB | 8GB+ | More RAM improves Docker performance |
+| **💻 CPU** | 2 cores | 4+ cores | Multi-core improves build times |
+| **💿 Storage** | 10GB | 20GB+ | Includes Docker images and dependencies |
+| **☕ JVM Heap** | 1GB | 2GB+ | Configurable in application properties |
+| **🔌 Network** | Internet | Broadband | For downloading dependencies |
+
+### 🏗️ **Architecture Support**
+- **Intel/AMD x64**: Full support
+- **Apple Silicon (M1/M2)**: Full support with Rosetta 2
+- **ARM64**: Supported on Linux
 
 ---
 
 ## 🚀 Quick Start Guide
 
-### 🎯 **One-Command Setup** (Recommended)
+### 🎯 **Universal Setup** (Works on Windows, Mac & Linux)
 
-Get SERAT v1.0 running in just **3 simple steps**:
+Get SERAT v1.0 running on **any operating system** in just **3 simple steps**:
 
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/AkXtreme/serat-system.git
 cd serat-system
 
-# 2️⃣ Start database services
-docker-compose up -d
+# 2️⃣ Run cross-platform setup
+node setup.js
 
-# 3️⃣ Run the complete application
+# 3️⃣ Start the application
 npm run dev
 ```
 
-**🎉 That's it!** Your application will be running at:
-- **🎨 Frontend**: http://localhost:3000
-- **🚀 Backend**: http://localhost:8080
-- **📚 API Docs**: http://localhost:8080/swagger-ui.html
+**🎉 That's it!** The setup script automatically:
+- ✅ Detects your operating system (Windows/Mac/Linux)
+- 🔍 Checks all prerequisites 
+- 📦 Installs dependencies
+- 🐳 Starts database services
+- 🚀 Provides next steps
 
 ---
 
-### 🐳 **Docker-First Setup** (Alternative)
+### 🖥️ **Platform-Specific Quick Start**
 
-For a containerized development environment:
+#### 🪟 **Windows Users**
+```cmd
+REM Option 1: Use the Windows batch script
+start-dev.bat
+
+REM Option 2: Use npm scripts
+npm install
+npm run setup:windows
+```
+
+#### 🍎 **macOS Users**
+```bash
+# Option 1: Use the Unix shell script
+chmod +x start-dev.sh
+./start-dev.sh
+
+# Option 2: Use npm scripts
+npm install
+npm run setup:unix
+```
+
+#### 🐧 **Linux Users**
+```bash
+# Option 1: Use the Unix shell script
+chmod +x start-dev.sh
+./start-dev.sh
+
+# Option 2: Use npm scripts
+npm install
+npm run setup:unix
+```
+
+---
+
+### 🐳 **Docker-First Setup** (Universal)
+
+For a completely containerized environment that works everywhere:
 
 ```bash
 # Start all services with Docker Compose
 docker-compose up --build
 
 # Access the application
-open http://localhost:3000
+# Windows: start http://localhost:3000
+# macOS: open http://localhost:3000
+# Linux: xdg-open http://localhost:3000
 ```
 
 ---
@@ -370,6 +419,20 @@ open http://localhost:3000
 ### 🛠️ **Manual Setup** (For Developers)
 
 #### 1️⃣ **Prerequisites Check**
+
+**Windows:**
+```cmd
+REM Verify Java 17+
+java -version
+
+REM Verify Node.js 16+
+node --version
+
+REM Verify Docker
+docker --version
+```
+
+**macOS/Linux:**
 ```bash
 # Verify Java 17+
 java -version
@@ -383,7 +446,7 @@ docker --version
 
 #### 2️⃣ **Database Setup**
 ```bash
-# Start PostgreSQL and Redis
+# Start PostgreSQL and Redis (Universal)
 docker-compose up -d postgres redis
 
 # Verify databases are running
@@ -391,13 +454,22 @@ docker ps
 ```
 
 #### 3️⃣ **Backend Setup**
+
+**Windows:**
+```cmd
+REM Build and run Spring Boot application
+gradlew.bat clean build
+gradlew.bat bootRun
+```
+
+**macOS/Linux:**
 ```bash
 # Build and run Spring Boot application
 ./gradlew clean build
 ./gradlew bootRun
 ```
 
-#### 4️⃣ **Frontend Setup**
+#### 4️⃣ **Frontend Setup** (Universal)
 ```bash
 # Install and run React application
 cd frontend
@@ -413,6 +485,10 @@ Once everything is running, verify your installation:
 
 1. **🔍 Backend Health Check**:
    ```bash
+   # Windows
+   curl http://localhost:8080/actuator/health
+   
+   # macOS/Linux
    curl http://localhost:8080/actuator/health
    ```
 
@@ -426,12 +502,54 @@ Once everything is running, verify your installation:
 
 ---
 
-### 🎊 **First Login**
+### 🐛 **Cross-Platform Troubleshooting**
 
-Use these default credentials for your first login:
-- **Username**: `admin`
-- **Password**: `admin123`
-- **🔒 Note**: Change these credentials immediately in production!
+#### 🪟 **Windows Issues**
+- **Gradlew not recognized**: Use `gradlew.bat` instead of `./gradlew`
+- **Docker not starting**: Enable WSL 2 and Hyper-V
+- **Port conflicts**: Use `netstat -ano | findstr :PORT` to check ports
+- **Permission errors**: Run Command Prompt as Administrator
+
+#### 🍎 **macOS Issues**
+- **Docker permission**: Ensure Docker Desktop is running
+- **Java not found**: Install via Homebrew: `brew install openjdk@17`
+- **Port conflicts**: Use `lsof -ti:PORT` to find processes
+
+#### 🐧 **Linux Issues**
+- **Docker permission**: Add user to docker group: `sudo usermod -aG docker $USER`
+- **Gradlew permission**: Make executable: `chmod +x gradlew`
+- **Service not starting**: Check systemctl: `sudo systemctl status docker`
+
+#### 🌍 **Universal Solutions**
+- **Clean restart**: `docker-compose down && docker-compose up -d`
+- **Clear npm cache**: `npm cache clean --force`
+- **Reset Docker**: `docker system prune -a`
+- **Check logs**: `docker-compose logs` for database issues
+
+---
+
+### 📚 **Platform-Specific Guides**
+
+For detailed setup instructions for your operating system:
+
+- 🪟 **[Windows Setup Guide](docs/WINDOWS_SETUP.md)** - Complete Windows installation guide
+- 🐧 **[Linux Setup Guide](docs/LINUX_SETUP.md)** - Complete Linux installation guide  
+- 🍎 **[macOS Setup Guide](#)** - Included in main README (current document)
+
+---
+
+### 🛠️ **Cross-Platform Command Reference**
+
+| Task | Windows | macOS/Linux | Universal |
+|------|---------|-------------|-----------|
+| **🔍 System Check** | `node check-system.js` | `node check-system.js` | `node check-system.js` |
+| **⚡ Quick Setup** | `start-dev.bat` | `./start-dev.sh` | `node setup.js` |
+| **🚀 Start App** | `npm run dev` | `npm run dev` | `npm run dev` |
+| **🏗️ Build Backend** | `gradlew.bat build` | `./gradlew build` | `npm run build:backend` |
+| **🧹 Clean Project** | `npm run clean:windows` | `npm run clean:unix` | `npm run clean` |
+| **🧪 Run Tests** | `gradlew.bat test` | `./gradlew test` | `npm run test` |
+| **� Docker Up** | `docker-compose up -d` | `docker-compose up -d` | `docker-compose up -d` |
+| **🐳 Docker Down** | `docker-compose down` | `docker-compose down` | `docker-compose down` |
 
 ---
 
