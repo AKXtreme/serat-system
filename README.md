@@ -66,7 +66,7 @@
 - ✅ **Docker Ready**: Containerized deployment for easy scaling
 
 #### 🎨 **User Experience**
-- 🎭 **Beautiful Ethiopian Theme**: Custom Waliya Ibex branding throughout
+
 - 📱 **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - ⚡ **Lightning Fast**: Optimized performance with Redis caching
 - 🔒 **Secure by Default**: Enterprise-grade security out of the box
