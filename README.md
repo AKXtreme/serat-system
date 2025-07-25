@@ -83,17 +83,8 @@
 
 ## 📖 Project Overview
 
-**SERAT** (System for Enterprise Resource Administration and Tracking) is a revolutionary, full-stack enterprise management system that brings together the best of modern web technologies. Built with Spring Boot 3.x backend and React 18 frontend, SERAT represents our **first major release (v1.0)** designed specifically for Ethiopian businesses and enterprises worldwide.
+**SERAT** (System for Enterprise Resource Administration and Tracking) is a revolutionary, full-stack enterprise management system that brings together the best of modern web technologies. Built with Spring Boot 3.x backend and React 18 frontend, SERAT represents our **first major release (v1.0)** designed specifically for businesses and enterprises worldwide.
 
-### 🎯 **Mission Statement**
-> *To empower Ethiopian businesses with world-class enterprise management tools that combine international standards with local cultural values.*
-
-### 🦌 **The Waliya Ibex Spirit**
-Named after Ethiopia's majestic Waliya Ibex, SERAT embodies the characteristics of this rare and resilient mountain goat:
-- **🏔️ Adaptability**: Thriving in challenging business environments
-- **🎯 Precision**: Navigating complex organizational structures with ease
-- **💪 Resilience**: Built to handle enterprise-scale operations
-- **🌿 Sustainability**: Designed for long-term growth and evolution
 
 ### � **What Makes SERAT Special**
 
@@ -102,12 +93,6 @@ Named after Ethiopia's majestic Waliya Ibex, SERAT embodies the characteristics 
 - **Frontend**: Modern React 18.2.0 application with Ant Design UI
 - **Database**: PostgreSQL 17.5 with Redis caching for optimal performance
 - **Integration**: Seamless communication between all components
-
-#### 🎨 **Ethiopian-Inspired Design**
-- Custom Ethiopian color schemes and typography
-- Waliya Ibex themed branding and imagery
-- Cultural elements integrated throughout the interface
-- Built with Ethiopian business practices in mind
 
 #### 🏢 **Enterprise-Grade Features**
 - Multi-tenant organization support
@@ -146,7 +131,7 @@ Named after Ethiopia's majestic Waliya Ibex, SERAT embodies the characteristics 
 ### 🎨 **Frontend Experience (React)**
 
 #### 🖥️ **Modern User Interface**
-- 🎭 **Ethiopian Theme**: Beautiful Waliya Ibex inspired design
+ 
 - 📱 **Responsive Design**: Perfect on desktop, tablet, and mobile
 - 🎨 **Ant Design Components**: Professional and consistent UI elements
 - ⚡ **Real-time Updates**: Live data refresh without page reload
