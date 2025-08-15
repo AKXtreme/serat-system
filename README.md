@@ -1240,9 +1240,6 @@ For enterprise support and consulting:
 
 ### 🌟 **SERAT v1.0 - The Future is Here!** �
 
-![Waliya Ibex](https://img.shields.io/badge/🦌-Waliya%20Ibex%20Powered-gold?style=for-the-badge)
-![Ethiopia](https://img.shields.io/badge/�🇪🇹-Made%20in%20Ethiopia-green?style=for-the-badge)
-![Version](https://img.shields.io/badge/v1.0-First%20Release-blue?style=for-the-badge)
 
 **🎊 Thank you for choosing SERAT!** 🎊
 
