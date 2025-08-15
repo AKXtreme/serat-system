@@ -1221,18 +1221,7 @@ SOFTWARE.
 - 📧 **Email Support**: support@serat-system.com
 - 🐦 **Twitter**: [@SeratSystem](https://twitter.com/akalewoldx)
 
-#### 🚀 **Professional Support**
-For enterprise support and consulting:
-- 📧 **Enterprise Email**: enterprise@serat-system.com
-- 💼 **Consulting Services**: Custom implementation and training
-- 🎯 **Priority Support**: 24/7 support for production systems
-- 🏢 **On-site Training**: Ethiopian business context training
 
-#### 🇪🇹 **Ethiopian Community**
-- 🌍 **Local Meetups**: Addis Ababa SERAT Users Group
-- 📱 **Telegram**: Ethiopian Developers Channel
-- 🎓 **University Partners**: Ethiopian university collaboration
-- 🏢 **Business Network**: Ethiopian enterprise user network
 
 ---
 
